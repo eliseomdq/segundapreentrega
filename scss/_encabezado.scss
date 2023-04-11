@@ -1,0 +1,17 @@
+$primary-color: #333;
+$secondary-color: #fff;
+$tertiary-color: #000000;
+$accent-color: #e91e63;
+$bg-color: #f7f7f7;
+$footer-bg-color: #24262b;
+
+header {
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 80px;
+
+  }

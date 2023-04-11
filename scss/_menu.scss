@@ -1,0 +1,32 @@
+$primary-color: #333;
+$secondary-color: #fff;
+$tertiary-color: #000000;
+$accent-color: #e91e63;
+$bg-color: #f7f7f7;
+$footer-bg-color: #24262b;
+
+
+nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px;
+  
+      li {
+        margin: 0 10px;
+  
+        a {
+          color: $primary-color;
+          font-size: 18px;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }

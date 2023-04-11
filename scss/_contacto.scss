@@ -1,0 +1,56 @@
+$primary-color: #333;
+$secondary-color: #fff;
+$tertiary-color: #000000;
+$accent-color: #e91e63;
+$bg-color: #f7f7f7;
+$footer-bg-color: #24262b; 
+
+
+%btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+ //Estilos para el formulario de contacto
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+    .form-group{
+    margin-bottom: 20px;
+    }
+    
+    label{
+    font-weight: bold;
+    }
+    
+    .btn-primary{
+      @extend %btn;
+    }
+
+    &:hover{
+        background-color: #0069d9;
+        border-color: #0062cc;
+      }
+    }
+
+
+//Estilos para la sección de información de contacto
+.contact-info{
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+p{
+margin-bottom: 10px;
+font-size: 1.1rem;
+}
+
+i{
+margin-right: 10px;
+color: #007bff;
+font-size: 1.2rem;
+}
+}      
